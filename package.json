@@ -1,0 +1,16 @@
+{
+  "name": "bicep-template-sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}

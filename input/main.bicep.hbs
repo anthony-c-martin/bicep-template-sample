@@ -1,0 +1,14 @@
+param storageAccountName string
+
+var test = '{{greeting}}'
+
+{{#if storageAccountName}}
+resource foo 'Microsoft.Storage/storageAccounts@2023-01-01' = {
+  name: storageAccountName
+  location: {{location}}
+  sku: {
+    name: 'Premium_ZRS'
+  }
+  kind: 'StorageV2'
+}
+{{/if}}

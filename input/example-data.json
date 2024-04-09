@@ -1,0 +1,5 @@
+{
+    "greeting": "Hello, World!",
+    "storageAccountName": "foo",
+    "location": "West US"
+}
